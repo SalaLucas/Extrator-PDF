@@ -37,7 +37,7 @@ Para rodar a solução, é necessário ter o **Python 3** (testado apenas na ver
    ```
 2. Rode o programa com Python 3, passando o parâmetro --dataset com o caminho para o dataset que será utilizado na aplicação.
 
-É importante que o caminho para o PDF esteja correto dentro do arquivo de dataset.
-```bash
-  python main.py --dataset caminho/para/dataset.json
-```
+   É importante que o caminho para o PDF esteja correto dentro do arquivo de dataset.
+   ```bash
+     python main.py --dataset caminho/para/dataset.json
+   ```
