@@ -10,7 +10,7 @@
 
 # Problemas Escolhidos e Soluções Propostas
 
-Tentei diminuir a quantidade de informações que a IA precisa processar utilizando algumas heurísticas básicas. É possível buscar palavras no texto que já são campos do nosso *extraction_schema* e procurar, em volta desse texto, possíveis valores para esses campos — já que, muitas vezes, temos um campo e o seu valor logo à direita ou abaixo.
+Tentei diminuir a quantidade de informações que a IA precisa processar utilizando algumas heurísticas básicas. É possível buscar palavras no texto que já são campos do nosso *extraction_schema* e procurar, em volta desse texto, possíveis valores para esses campos já que, muitas vezes, temos um campo e o seu valor logo à direita ou abaixo.
 
 Busquei deixar a requisição para a API mais rápida fazendo apenas **uma chamada** em vez de várias, ou então executando **várias requisições em paralelo**, uma para cada campo sem resposta. A abordagem com múltiplas *threads* se mostrou um pouco mais eficiente, porém com um custo maior.
 
